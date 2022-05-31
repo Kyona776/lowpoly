@@ -1,0 +1,52 @@
+
+html,
+body {
+  background: rgb(235, 235, 235);
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+div > canvas#poly_earth{
+  
+}
+
+#poly_earth {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+canvas {
+  z-index: 50;
+  width: 300px;
+  height: 300px;
+}
+
+canvas.cursor {
+  cursor: pointer;
+}
+
+
+#layer_selector {
+  position: absolute;
+  top:10px;
+  left:10px;
+  z-index: 100;
+  color: aliceblue;
+  width: 100px;
+  height: 1rem;
+}
+
+.side_menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
